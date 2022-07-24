@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+}
+
+main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    margin: 10px;
+    padding: 10px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin:0;
+    padding:0;
+    gap:16px;
+}
+
+ul li a{
+    padding:0 20px;
+    text-decoration: none;
+    color:#F9FAF8;
+}
+
+/* Hero with Image */
+
+.hero-image{
+    width: 400px;
+    height: 600px;
+    padding-bottom: 20px;
+}
+
+.content-left{
+    width:30%;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    padding: 15px 30px;
+    background: #3882D6;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+/* Images with text on bottom */
+.sidekick img{
+    width: 400px;
+    height: 600px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+.sidekick{
+    text-align: center;
+    color:#1F2937;
+    background: #F9FAF8;
+    height: calc(80vh - 80px);
+}
+
+
+.title{
+    display:flex;
+    justify-content: center;
+    border:18px red;
+    font-size: 36px;
+    font-weight:bolder;
+    margin-bottom: 32px;
+    padding: 20px;
+}
+
+.container-2{
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    font-size: 18px;
+}
+
+.info{
+    max-width: 200px;
+}
+
+/* Quotes */
+
+.quote{
+    height:calc(50vh - 50ph);
+    margin: 0;
+    color: #1F2937;
+    background: #E5E7E8;
+    padding:1em;
+}
+
+blockquote{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+figcaption{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+/* Sign Up Button*/
+
+#signup {
+    padding: 4rem 0;
+  }
+  
+  #signup-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #3882f6;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 2rem 0;
+    color: #fff;
+    gap: 2rem;
+  }
+  
+  #signup h2 {
+    margin: 0 0 0.5rem 0;
+    color: #fff;
+    font-weight: 500;
+    text-align: left;
+  }
+  
+  #signup p {
+    color: #ddd;
+    font-size: 18px;
+  }
+  
+  #signup input[type="button"] {
+    border: 2px solid #fff;
+    padding: 0.7rem 2.3rem;
+  }
+  
+  #signup input[type="button"]:hover {
+    background: #fff;
+    color: black;
+  }
+
+  /*Footer*/
+  
+  footer {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    color: #ccc;
+  }
